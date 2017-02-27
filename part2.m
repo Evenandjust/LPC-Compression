@@ -1,3 +1,6 @@
+% @author: XZZ
+% @function: Compress and resynthesize own recorded voice using LPC.
+
 [y,Fs]=audioread('own_voice.wav');
 pit = pitchdetector('own_voice.wav',16000,160,0); % Detect pitches of each frame
 y = filter([1,-0.9378],1,y);    % Pre-emphasize the signal
