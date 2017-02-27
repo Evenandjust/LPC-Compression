@@ -1,3 +1,6 @@
+% @author: XZZ
+% @function: Detect pitch within a certain range of signal.
+
 function pd = pitchdetector(sound,Fs,frame_len,overlap)
     [data, Fs] = audioread(sound);
     data = filter([1,-0.9378],1,data);
