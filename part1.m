@@ -1,3 +1,6 @@
+% @author: XZZ
+% @function: Compress and resynthesize given signals using LPC
+
 s1 = input('Input the .wav filename: ','s'); % For instance, SampleX.wav (no need for '')
 s2 = input('Input the .mat file name: ','s'); 
 % pit = pitchdetector(s1,16000,160,0);
