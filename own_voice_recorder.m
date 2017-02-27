@@ -1,4 +1,6 @@
-% Record and save own voice
+% @author: XZZ
+% @function: Record and save own voice
+
 recObj = audiorecorder(16000,16,1);
 disp('Start Speaking.');
 recordblocking(recObj, 5); % Record this sentence within 5 seconds
