@@ -1,3 +1,6 @@
+% @author: XZZ
+% @function: Detect voicing state in a certain range of signal.
+
 function vd = voicingdetector(sound,Fs,frame_len,overlap)
     [data, Fs] = audioread(sound);
     L = length(data);
